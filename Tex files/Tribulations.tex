@@ -1711,9 +1711,9 @@
         % Draw the top circle
         \draw[very thick,black] (\offset, \height) arc [start angle=0, end angle=360, x radius=\radius, y radius={\radius/3}];
 
+        \draw[fill=blue!50!white, fill opacity=0.5, color=blue] (2,\height) -- ({\radius*cos(360/\nstrings*1.5)-\radius+\offset}, {\height + 0.333*sin(360/\nstrings*1.5)}) arc [start angle=27, end angle=-63, x radius=\radius, y radius={\radius/3}] -- (2,\height);
+        
         \draw[very thick, color=blue, -triangle 45] ({\radius*cos(360/\nstrings*1.5)-\radius+\offset}, {\height + 0.333*sin(360/\nstrings*1.5)}) node[anchor=south west] {$90\degree$} arc [start angle=27, end angle=-63, x radius=\radius, y radius={\radius/3}];
-
-        \draw[fill=blue!50!white, fill opacity=0.5] (2,\height) -- ({\radius*cos(360/\nstrings*1.5)-\radius+\offset}, {\height + 0.333*sin(360/\nstrings*1.5)}) arc [start angle=27, end angle=-63, x radius=\radius, y radius={\radius/3}] -- (2,\height);
         
         \draw[very thick, triangle 45-triangle 45] (3.2,0) -- node[anchor=west] {?} (3.2, \height);
         \draw[very thick, black, -triangle 45] (0.333,\height/2) -- (0.666,\height/2);
@@ -1765,10 +1765,10 @@
         % Draw the top circle
         \draw[very thick,black] (\offset, \height) arc [start angle=0, end angle=360, x radius=\radius, y radius={\radius/3}];
 
+        \draw[fill=blue!50!white, fill opacity=0.5, color=blue] (2,\height) -- ({\radius*cos(360/\nstrings*1.5)-\radius+\offset}, {\height + 0.333*sin(360/\nstrings*1.5)}) arc [start angle=27, end angle=-63, x radius=\radius, y radius={\radius/3}] -- (2,\height);
+        
         \draw[very thick, color=blue, -triangle 45] ({\radius*cos(360/\nstrings*1.5)-\radius+\offset}, {\height + 0.333*sin(360/\nstrings*1.5)}) node[anchor=south west] {$90\degree$} arc [start angle=27, end angle=-63, x radius=\radius, y radius={\radius/3}];
 
-        \draw[fill=blue!50!white, fill opacity=0.5] (2,\height) -- ({\radius*cos(360/\nstrings*1.5)-\radius+\offset}, {\height + 0.333*sin(360/\nstrings*1.5)}) arc [start angle=27, end angle=-63, x radius=\radius, y radius={\radius/3}] -- (2,\height);
-        
         \draw[very thick, black, -triangle 45] (0.333,\height/2) -- (0.666,\height/2);
         \node (V) at (2,-0.7) {$V = $ ?};
     \end{tikzpicture}
