@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.23)  10 JUN 2024 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.23)  13 JUN 2024 13:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3218,6 +3218,16 @@ been already used, duplicate ignored
                    \relax 
 l.1513     \newpage
                     [9]
+! Undefined control sequence.
+l.1516     \questionEach
+                         Each square has an area of 16. Find the area of the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1516--1517
 
  []
@@ -3355,8 +3365,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has
                    \relax 
 l.1584     \newpage
                     [14]
-\openout3 = `Tribulations-figure44.md5'.
-
 \openout3 = `Tribulations.auxlock'.
 
 
@@ -3665,7 +3673,7 @@ been already used, duplicate ignored
                    \relax 
 l.1819 \end{document}
                       [2]
-This exam contains 78 questions with 27 parts, 4 subparts, and 0 subsubparts.
+This exam contains 77 questions with 27 parts, 4 subparts, and 0 subsubparts.
 (Tribulations.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -3679,8 +3687,8 @@ Package rerunfilecheck Info: File `Tribulations.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 42156 strings out of 474485
- 994716 string characters out of 5743734
+ 42155 strings out of 474485
+ 994708 string characters out of 5743734
  1954542 words of memory out of 5000000
  63580 multiletter control sequences out of 15000+600000
  566068 words of font info for 65 fonts, out of 8000000 for 9000
@@ -3700,9 +3708,9 @@ Users/kubac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12
 .pfb><C:/Users/kubac/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmtt12.pfb><C:/Users/kubac/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/symbols/msam10.pfb>
-Output written on Tribulations.pdf (86 pages, 311410 bytes).
+Output written on Tribulations.pdf (86 pages, 311259 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
