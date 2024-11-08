@@ -270,7 +270,7 @@
                 \foreach \i in {-3,...,-1}{\draw (1mm,\i) -- + (-2mm,0) node[ left] {\i};}
                 \foreach \i in {1,...,6}{\draw (1mm,\i) -- + (-2mm,0) node[ left] {\i};}
                 % curve
-                \draw[very thick, red]  plot[domain= -3.279:1.355] (\x, 4-3*\x*\x-\x*\x*\x);
+                \draw[very thick, red]  plot[domain= -3.279:1.355, smooth] (\x, 4-3*\x*\x-\x*\x*\x);
                 \draw (0,0) node[anchor=north east]{o};
             \end{tikzpicture}
         \end{center}
@@ -287,7 +287,7 @@
                 \foreach \i in {-3,...,-1}{\draw (1mm,\i) -- + (-2mm,0) node[ left] {\i};}
                 \foreach \i in {1,...,6}{\draw (1mm,\i) -- + (-2mm,0) node[ left] {\i};}
                 % curve
-                \draw[very thick, red]  plot[domain= -3.279:1.355] (\x, 4-3*\x*\x-\x*\x*\x);
+                \draw[very thick, red]  plot[domain= -3.279:1.355, smooth] (\x, 4-3*\x*\x-\x*\x*\x);
                 \draw (0,0) node[anchor=north east]{o};
             \end{tikzpicture}
         \end{center}
@@ -724,7 +724,7 @@
     \newpage
 
     % Question 4
-    \question Using algebra, show that part of the line $3x+4y=0$ is a diameter of the circle with equation $x^2+y^2=25$.
+    \question Show that part of the line $3x+4y=0$ is a diameter of the circle with equation $x^2+y^2=25$.
     \newpage
 
     % Question 5
@@ -783,7 +783,7 @@
     Line A and Line B intersect at the Point $P(p,q)$.\\
     Line B crosses the $y$-axis at Point B.\\
 
-    Show that the coordinates of Point B can be written as $(0,\frac{p}{2}+q)$.
+    Find the coordinates of Point $B$ in terms of $p$ and $q$.
     \newpage
 
     % Question 12
@@ -813,7 +813,7 @@
     \end{nscenter}
     Use the graphs to find estimates for the solutions of the equation:\\
     \begin{equation*}
-        \sin{x}-2\cos{x}=0 \text{ for } 0\leq x \leq 360\degree
+        \sin{x}-2\cos{x}=0 \hfill \text{ for } \hfill 0\leq x \leq 360\degree
     \end{equation*}        
     \newpage
 
@@ -822,8 +822,6 @@
     \begin{nscenter}
         \begin{tikzpicture}[scale=1]
             % grid
-            \draw (0.75,2.65)node[anchor=south west]{$A$};
-            \draw (2.4,1.2)node[anchor=south west]{$B$};
             \draw[semithick,gray!50] (-4.5,-3.5) grid[step=5mm] (4.5,4.5);
             \draw[thick,gray!75] (-4.5,-3.5) grid[step=10mm] (4.5,4.5);
         
@@ -840,6 +838,8 @@
        
             % label the origin
             \node[anchor=north east] at (0,0) {o};
+            \draw (0.75,2.65)node[anchor=south west]{$A$};
+            \draw (2.4,1.2)node[anchor=south west]{$B$};
         \end{tikzpicture}
     \end{nscenter}
     The points $A(p,q)$ and $B(r,s)$ are two of the points where\\ the graphs intersect.\\
@@ -1353,7 +1353,7 @@
     \begin{minipage}{0.5\textwidth}
         You may use a calculator.\\
         Two congruent rectangles are shown.\\
-        The are of the rectangle is 1260.\\
+        The area of the rectangle is 1260.\\
         The perimeter of the rectangle is 146.\\
         Find the circumference of the circle.
     \end{minipage}
@@ -1513,7 +1513,7 @@
     \newpage
 
     % Question 10
-    \questionEach Each square has an area of 16. Find the area of the circle.\\
+    \question Each square has an area of 16. Find the area of the circle.\\
     
     \begin{tikzpicture}[scale=0.5]
         \coordinate (O) at (7,6);
